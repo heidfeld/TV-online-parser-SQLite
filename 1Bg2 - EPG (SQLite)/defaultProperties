@@ -1,0 +1,12 @@
+#Mon Jul 13 11:04:29 CEST 2015
+parse.channels.rules=TR.FIRST[text]\=TR.LAST[text]
+url.3.type=parse.channels
+url.4=http\://www.lyngsat.com/packages/NC-.html
+url.3=http\://www.lyngsat.com/Eutelsat-Hot-Bird-13D.html
+parse.channels=table[width\=720],~[border\=0]
+url.2=http\://www.lyngsat.com/Eutelsat-Hot-Bird-13C.html
+url.1=http\://www.lyngsat.com/Eutelsat-Hot-Bird-13B.html
+url.4.type=parse.packets
+url.1.type=parse.channels
+parse.packets=table[width\=720],~[border\=0]
+url.2.type=parse.channels

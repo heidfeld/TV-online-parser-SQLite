@@ -1,0 +1,16 @@
+2015-10-01 16:45:12,974 ERROR [main] - agh.project.main.Main.<init> 33 - java.lang.ClassNotFoundException: org.sqlite.JDBC
+java.lang.ClassNotFoundException: org.sqlite.JDBC
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Unknown Source)
+	at agh.project.main.MySQL.<init>(MySQL.java:31)
+	at agh.project.main.GUI.<clinit>(GUI.java:20)
+2015-10-01 16:45:13,015 ERROR [main] - agh.project.main.Main.<init> 42 - java.sql.SQLException: No suitable driver found for jdbc:sqlite:biblioteka.db
+java.sql.SQLException: No suitable driver found for jdbc:sqlite:biblioteka.db
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at agh.project.main.MySQL.<init>(MySQL.java:39)
+	at agh.project.main.GUI.<clinit>(GUI.java:20)
